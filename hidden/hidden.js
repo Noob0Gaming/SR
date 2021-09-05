@@ -59,7 +59,7 @@ async function onHide() {
   try {
     let _ = JSON.parse(b64.decode(hash));
   } catch {
-    error("The hidden URL appears corrupted. It must be a password-protected Link Lock URL. <a href=\"https://gamesdrive.github.io/SR\">Click here to add a password.</a>");
+    error("The hidden URL appears corrupted. It must be a password-protected Link Lock URL. <a href=\"https://s.cybar.xyz/\">Click here to add a password.</a>");
     return;
 
     // Uncomment this to allow hiding arbitrary pages. Not secure though, so I
