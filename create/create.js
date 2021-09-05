@@ -121,13 +121,13 @@ async function onEncrypt() {
 
   const encrypted = await generateFragment(url, password, hint, useRandomSalt,
       useRandomIv);
-  const output = `https://gamesdrive.github.io/SR/#${encrypted}`;
+  const output = `https://s.cybar.xyz#${encrypted}`;
 
   document.querySelector("#output").value = output;
   highlight("output");
 
   // Adjust "Hidden Bookmark" link
-  document.querySelector("#bookmark").href = `https://gamesdrive.github.io/SR/#${encrypted}`;
+  document.querySelector("#bookmark").href = `https://s.cybar.xyz#${encrypted}`;
 
   // Adjust "Open in New Tab" link
   document.querySelector("#open").href = output;

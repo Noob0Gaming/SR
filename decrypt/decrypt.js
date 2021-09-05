@@ -116,6 +116,6 @@ function onCopy(id) {
 function main() {
   if (window.location.hash) {
     document.querySelector("#encrypted-url").value =
-      `https://gamesdrive.github.io/SR/${window.location.hash}`;
+      `https://s.cybar.xyz/${window.location.hash}`;
   }
 }
