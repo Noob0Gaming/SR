@@ -63,11 +63,11 @@ async function main() {
 
       // Set the "decrypt without redirect" URL appropriately
       document.querySelector("#no-redirect").href =
-        `https://gamesdrive.github.io/SR/decrypt/#${hash}`;
+        `https://s.cybar.xyz/decrypt/#${hash}`;
 
       // Set the "create hidden bookmark" URL appropriately
       document.querySelector("#hidden").href =
-        `https://gamesdrive.github.io/SR/hidden/#${hash}`;
+        `https://s.cybar.xyz/hidden/#${hash}`;
       return;
     }
 
